@@ -1,13 +1,9 @@
 {
-  "name": "trailpack-passport-auth",
-  "version": "0.0.6",
-  "description": "trailpack for passportAuth",
-  "homepage": "https://github.com/ycpatel813/trails-passport-auth",
-  "author": {
-    "name": "Yogesh",
-    "email": "yogi@jsbot.io",
-    "url": "jsbot.io"
-  },
+  "name": "trailpack-passport-auth-generic",
+  "version": "0.0.1",
+  "description": "trailpack for passportAuthGeneric",
+  "homepage": "https://github.com/agustim/trails-passport-auth-generic",
+  "author": "Agustí Moll <agusti@gmail.com>",
   "main": "index.js",
   "keywords": [
     "",
@@ -23,12 +19,6 @@
     "passport": "^0.3.2",
     "trailpack": "latest",
     "lodash": "^4.13.1",
-    "trailpack-core": "^1.0.0-beta-3",
-    "trailpack-express": "^1.0.1",
-    "trailpack-mongoose": "^0.2.2",
-    "trailpack-repl": "^1.0.0-beta-3",
-    "trailpack-router": "^1.0.0-beta-4",
-    "trails": "^1.0.0-beta-1",
     "trails-controller": "^1.0.0-beta-2",
     "trails-model": "^1.0.0-beta-2",
     "trails-policy": "^1.0.1",
@@ -42,7 +32,12 @@
     "eslint-config-trails": "^1.0.4",
     "mocha": "^2.4.5",
     "smokesignals": "^1.0.9",
-    "trailpack-core": "^1.0.0-beta-6"
+    "trailpack-core": "^1.0.0-beta-6",
+    "trailpack-core": "^1.0.0-beta-3",
+    "trailpack-express": "^1.0.1",
+    "trailpack-repl": "^1.0.0-beta-3",
+    "trailpack-router": "^1.0.0-beta-4",
+    "trails": "^1.0.0-beta-1"
   },
   "scripts": {
     "test": "eslint . && mocha"
@@ -55,7 +50,7 @@
   },
  "repository": {
     "type": "git",
-    "url": "git+https://ycpatel813/trails-passport-auth.git"
+    "url": "https://agustim/trails-passport-auth-generic.git"
   },
   "license": "MIT"
 }

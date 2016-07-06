@@ -15,12 +15,12 @@ $ npm install --save trailpack-passport-auth
 module.exports = {
   packs: [
     // ... other trailpacks
-    require('trailpack-passport-auth')
+    require('trailpack-passport-auth-generic')
   ]
 }
 ```
 
-You need to add `passportInit` and optionally `passportSession` : 
+You need to add `passportInit` and optionally `passportSession` :
 ```js
 // config/web.js
 middlewares: {
@@ -39,7 +39,7 @@ middlewares: {
         ]
       }
 ```
-And to configure sessions: 
+And to configure sessions:
 ```js
 // config/session.js
 'use strict'
@@ -93,9 +93,6 @@ module.exports = {
 
 Now you have your strategy ready for enjoy with passport.
 
-## Full example
-If you have some trouble, you can view a full example with local strategy here : https://github.com/ycpatel813/trails-auth-demo
-Clone the repo and play a little with it to see how it works :)
-
 ## Support and Help
 Full support by [Jaumard](https://github.com/jaumard) and this all is possible only and only help by him.
+All Code by [Ycpatel813](https://github.com/ycpatel813/trailpack-passport-auth) , I only changed one line of code.
