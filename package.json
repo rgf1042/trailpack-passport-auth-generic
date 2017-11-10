@@ -17,7 +17,7 @@
     "joi": "^8.4.0",
     "jsonwebtoken": "^7.0.0",
     "passport": "^0.3.2",
-    "trailpack": "latest",
+    "trailpack": "2.1.2",
     "lodash": "^4.13.1",
     "trails-controller": "^1.0.0-beta-2",
     "trails-model": "^1.0.0-beta-2",
