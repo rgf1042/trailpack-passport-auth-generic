@@ -1,5 +1,5 @@
 {
-  "name": "trailpack-passport-auth-generic",
+  "name": "trailpack-passport-auth-generic-fiberfy",
   "version": "0.0.1",
   "description": "trailpack for passportAuthGeneric",
   "homepage": "https://github.com/agustim/trails-passport-auth-generic",
